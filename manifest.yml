@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: mdpj
+  buildpack: liberty-for-java
+  path: ./target/mdpj.zip
+  memory: 512M
+  domain: au-syd.mybluemix.net
+  host: mdp
